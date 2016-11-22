@@ -1,2 +1,5 @@
 # ge2egsa
-A Google Earth to EGSA converter (and vice versa) intended for easier Greek mapping.
+
+Το πρόγραμμα αυτό μετατρέπει τις ΕΓΣΑ συντεταγμένες σε γεωγραφικό μήκος και πλάτος (longitude, latitude) όπως ακριβώς συναντάμε στο Google Earth. Αυτό γίνεται με τη βοήθεια του pyproj module το οποίο είναι ένας python wrapper γύρω από τη βιβλιοθήκη Proj4.
+
+Επίσης η ανωτέρω μετατροπή λειτουργεί και αντίστροφα (από συντεταγμένες του Google Earth σε ΕΓΣΑ). Και στις δύο περιπτώσεις παράγεται ένα kml και ένα dxf αρχείο τα οποία μπορείτε να τα ανοίξετε με το Google Earth και το AutoCAD αντίστοιχα
